@@ -63,19 +63,12 @@ typedef enum LSM303_Reg_t{
 	INT2_THS_A 		=	0x36,
 	INT2_DURATION_A =	0x37,
 
-	CRA_REG_M 		= 	0x00,
-	CRB_REG_M 		= 	0x01,
-	MR_REG_M 		=	0x02,
-	OUT_X_H_M 		=	0x03,
-	OUT_X_L_M 		=	0x04,
-	OUT_Y_H_M 		=	0x05,
-	OUT_Y_L_M 		=	0x06,
-	OUT_Z_H_M 		= 	0x07,
-	OUT_Z_L_M 		=	0x08,
-	SR_REG_Mg 		=	0x09,
-	IRA_REG_M 		=	0x0A,
-	IRB_REG_M 		=	0x0B,
-	IRC_REG_M 		=	0x0C,
+	OUT_X_L_M 		= 	0x08,
+	OUT_X_H_M 		= 	0x09,
+	OUT_Y_L_M 		= 	0x0A,
+	OUT_Y_H_M 		= 	0x0B,
+	OUT_Z_L_M 		= 	0x0C,
+	OUT_Z_H_M 		= 	0x0D,
 }LSM303_REG;
 
 typedef struct lsm303_var_t{
